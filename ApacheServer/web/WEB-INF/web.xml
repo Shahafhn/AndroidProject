@@ -7,8 +7,17 @@
         <servlet-name>MainServlet</servlet-name>
         <servlet-class>main.MainServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>APKServlet</servlet-name>
+        <servlet-class>main.APKServlet</servlet-class>
+    </servlet>
+
     <servlet-mapping>
         <servlet-name>MainServlet</servlet-name>
-        <url-pattern>/project</url-pattern>
+        <url-pattern>/</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>APKServlet</servlet-name>
+        <url-pattern>/projectgram.apk</url-pattern>
     </servlet-mapping>
 </web-app>

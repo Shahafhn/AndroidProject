@@ -19,15 +19,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Java EE 6-Java EE 6" level="project" />
-    <orderEntry type="module-library" exported="">
-      <library>
-        <CLASSES>
-          <root url="jar://C:/Program Files/Java SQL Connector/mysql-connector-java-5.1.47/mysql-connector-java-5.1.47.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
+    <orderEntry type="library" exported="" name="Java EE 6-Java EE 6" level="project" />
+    <orderEntry type="library" exported="" name="mysql-connector-java-5.1.47" level="project" />
   </component>
 </module>

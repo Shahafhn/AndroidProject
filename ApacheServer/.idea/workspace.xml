@@ -14,6 +14,10 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="Server" />
   </component>
@@ -22,7 +26,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
+            <state>
               <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
             </state>
           </provider>
@@ -31,41 +35,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+            <state relative-caret-position="100">
+              <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/MainServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/ActionsManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-180">
-              <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+            <state relative-caret-position="25">
+              <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/DatabaseManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="26" column="133" selection-start-line="26" selection-start-column="112" selection-end-line="26" selection-end-column="133" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#User#0;class#User#0;class#DatabaseManager#0" />
               </folding>
             </state>
           </provider>
@@ -78,11 +60,12 @@
       <list>
         <option value="HTML File" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Servlet" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -91,7 +74,6 @@
         <option value="$PROJECT_DIR$/src/Servlet.java" />
         <option value="$PROJECT_DIR$/src/example/test.java" />
         <option value="$PROJECT_DIR$/src/example/Main.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/example/DatabaseManager.java" />
         <option value="$PROJECT_DIR$/src/example/main.java" />
         <option value="$PROJECT_DIR$/src/example/UserManager.java" />
@@ -99,8 +81,12 @@
         <option value="$PROJECT_DIR$/src/example/awdawd.java" />
         <option value="$PROJECT_DIR$/src/example/MainServlet.java" />
         <option value="$PROJECT_DIR$/src/example/ActionsManager.java" />
-        <option value="$PROJECT_DIR$/src/main/ActionsManager.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/MainServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/APKServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/ActionsManager.java" />
+        <option value="$PROJECT_DIR$/src/main/FileHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/Resultable.java" />
       </list>
     </option>
   </component>
@@ -111,11 +97,10 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="728" />
-    <option name="y" value="-21" />
-    <option name="width" value="1291" />
-    <option name="height" value="999" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="953" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -124,34 +109,24 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="Server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Apache Server" type="462c0819:PsiDirectoryNode" />
+              <item name="ApacheServer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Apache Server" type="462c0819:PsiDirectoryNode" />
+              <item name="ApacheServer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Apache Server" type="462c0819:PsiDirectoryNode" />
+              <item name="ApacheServer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Apache Server" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Apache Server" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Server" type="b2602c69:ProjectViewProjectNode" />
@@ -161,15 +136,15 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550058778784" />
-    <property name="last_opened_file_path" value="C:/Program Files/Java SQL Connector/mysql-connector-java-5.1.47/mysql-connector-java-5.1.47.jar!/" />
+    <property name="last_opened_file_path" value="C:/Program Files/mysql-connector-java-5.1.47/mysql-connector-java-5.1.47.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -177,6 +152,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="main" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\HackerU\GitHub\Apache Server\lib" />
     </key>
@@ -347,11 +325,13 @@
       <workItem from="1549902958780" duration="1948000" />
       <workItem from="1549992664317" duration="8344000" />
       <workItem from="1550054901946" duration="1878000" />
+      <workItem from="1561809428257" duration="40000" />
+      <workItem from="1561812123467" duration="380000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="201616000" />
+    <option name="totallyTimeSpent" value="202036000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -363,20 +343,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48337597" visible="true" weight="0.09541578" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48085585" visible="true" weight="0.20444444" />
       <window_info id="Structure" order="1" sideWeight="0.50398725" side_tool="true" weight="0.08742005" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.503096" side_tool="true" weight="0.18176973" />
-      <window_info id="Web" order="7" sideWeight="0.51662403" side_tool="true" visible="true" weight="0.09541578" />
+      <window_info id="Web" order="7" sideWeight="0.5191441" side_tool="true" visible="true" weight="0.20444444" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.18879668" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.18879668" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39937758" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -406,13 +386,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/example/test.java" />
-    <entry file="file://$PROJECT_DIR$/src/Servlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/sql/DriverManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8376">
@@ -434,34 +407,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java SQL Connector/mysql-connector-java-5.1.47/mysql-connector-java-5.1.47.jar!/com/mysql/jdbc/AbandonedConnectionCleanupThread.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java SQL Connector/mysql-connector-java-5.1.47/mysql-connector-java-5.1.47.jar!/com/mysql/jdbc/AbandonedConnectionCleanupThread.class" />
     <entry file="file://$PROJECT_DIR$/src/example/main.java" />
     <entry file="file://$PROJECT_DIR$/src/example/Account.java" />
     <entry file="file://$PROJECT_DIR$/src/example/UserManager.java" />
     <entry file="file://$PROJECT_DIR$/src/example/awdawd.java" />
     <entry file="file://$PROJECT_DIR$/web/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
+        <state>
           <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/DatabaseManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
+        <state relative-caret-position="650">
           <caret line="26" column="133" selection-start-line="26" selection-start-column="112" selection-end-line="26" selection-end-column="133" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -470,20 +430,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/ActionsManager.java">
+    <entry file="file://$PROJECT_DIR$/src/Servlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-180">
-          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+        <state relative-caret-position="100">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/MainServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1079">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/FileHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3000">
+          <caret line="90" selection-start-line="90" selection-end-line="90" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/MainServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/main/Resultable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+        <state relative-caret-position="225">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/APKServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/ActionsManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
